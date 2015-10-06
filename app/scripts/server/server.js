@@ -1,6 +1,6 @@
 //Lets require/import the HTTP module
 var http = require('http');
-var dispatcher = require('httpdispatcher');
+var dispatcher = require('express');
 var Firebase = require("firebase");
 var myFirebaseRef = new Firebase("https://dazzling-heat-3053.firebaseio.com/");
 

@@ -17,6 +17,6 @@ angular.module('weblogApp')
 
     $scope.posts = RequestService.getAllPosts();
 
-
+    console.log($scope.posts);
 
   }]);

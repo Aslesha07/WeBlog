@@ -3,11 +3,13 @@ angular.module('weblogApp')
     
   	var urlBase = 'http://localhost:8080';
 
-  	RequestService.getAllPosts = function(){
+  	var response = {};
+
+  	response.getAllPosts = function(){
   		return $http.get(  urlBase + '/getAllPosts' );
   	}
 
-  	return RequestService;
+  	return response;
 
   }]);
 
